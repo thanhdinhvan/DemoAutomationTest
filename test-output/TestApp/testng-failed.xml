@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [TestApp]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Test View23(failed)">
+    <parameter name="path" value="/Users/vanthanh/Desktop/device/device2"/>
+    <parameter name="port" value="8823"/>
+    <parameter name="wda" value="8191"/>
+    <parameter name="deviceName" value="iPhone 11"/>
+    <parameter name="pathApp" value="/Users/vanthanh/Library/Developer/Xcode/DerivedData/LoginScreen-2-hhcxfmgjvvhuiwgrnmfldvqjdeyn/Build/Products/Debug-iphoneos/LoginScreen-2.app"/>
+    <classes>
+      <class name="TestLoginScreen">
+        <methods>
+          <include name="openApp"/>
+          <include name="testListMusicScreen"/>
+          <include name="testSettingScreen"/>
+          <include name="closeApp"/>
+          <include name="setUpTestLogin"/>
+          <include name="testLoginScreenView"/>
+        </methods>
+      </class> <!-- TestLoginScreen -->
+    </classes>
+  </test> <!-- Test View23(failed) -->
+  <test thread-count="2" parallel="tests" name="Test View232(failed)">
+    <parameter name="path" value="/Users/vanthanh/Desktop/device/device1"/>
+    <parameter name="port" value="8822"/>
+    <parameter name="wda" value="8890"/>
+    <parameter name="deviceName" value="iPhone 11 Pro"/>
+    <classes>
+      <class name="TestLoginScreen">
+        <methods>
+          <include name="openApp"/>
+          <include name="testListMusicScreen"/>
+          <include name="testSettingScreen"/>
+          <include name="closeApp"/>
+          <include name="setUpTestLogin"/>
+          <include name="testLoginScreenView"/>
+        </methods>
+      </class> <!-- TestLoginScreen -->
+    </classes>
+  </test> <!-- Test View232(failed) -->
+</suite> <!-- Failed suite [TestApp] -->

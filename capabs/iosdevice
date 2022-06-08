@@ -1,0 +1,13 @@
+automationName=XCUITest
+
+platformName=IOS
+
+app=/Users/vanthanh/Downloads/UserAndDriver/[S]mobiCommunityMobilityDriver.app
+
+deviceName=iPhone 11 Pro
+
+udid=84B06133-A415-4BD7-91E1-B807B9E30557
+
+wdaLocalPort=4723
+
+derivedDataPath=/Users/vanthanh/Desktop/device/device1

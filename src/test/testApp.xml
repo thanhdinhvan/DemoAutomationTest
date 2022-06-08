@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestApp123"  parallel="tests" thread-count="2" >
+    <test name="Test View232123">
+        <parameter name="port" value="4760"></parameter>
+        <parameter name="deviceName" value="iPhone 11 Pro"></parameter>
+        <parameter name="wda" value="8890"></parameter>
+        <parameter name="path" value="/Users/vanthanh/Desktop/device/device1"></parameter>
+        <parameter name="pathApp" value="/Users/vanthanh/Library/Developer/Xcode/DerivedData/LoginScreen-2-hhcxfmgjvvhuiwgrnmfldvqjdeyn/Build/Products/Debug-iphonesimulator/LoginScreen-2.app"></parameter>
+        <classes>
+            <class name="TestLoginScreen">
+                <methods>
+                    <exclude name="testSettingScreen"></exclude>
+                    <exclude name="testListMusicScreen"></exclude>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Test View232asd">
+        <parameter name="port" value="4760"></parameter>
+        <parameter name="deviceName" value="iPhone 11"></parameter>
+        <parameter name="wda" value="8100"></parameter>
+        <parameter name="path" value="/Users/vanthanh/Desktop/device/device1"></parameter>
+        <classes>
+            <class name="TestParallelDevice">
+
+            </class>
+        </classes>
+    </test>
+</suite>

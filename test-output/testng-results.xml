@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-10T09:22:23Z" name="TestApp" finished-at="2021-12-10T09:23:41Z" duration-ms="77254">
+    <groups>
+    </groups>
+    <test started-at="2021-12-10T09:22:23Z" name="Test View232" finished-at="2021-12-10T09:23:41Z" duration-ms="77176">
+      <class name="TestLoginScreen">
+        <test-method is-config="true" signature="setUpTestLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestLoginScreen@5b8dfcc1]" started-at="2021-12-10T09:22:24Z" name="setUpTestLogin" finished-at="2021-12-10T09:22:46Z" duration-ms="22036" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8890]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone 11 Pro]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8822]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/Users/vanthanh/Desktop/device/device1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTestLogin -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:TestLoginScreen@5b8dfcc1]" started-at="2021-12-10T09:22:46Z" name="openApp" finished-at="2021-12-10T09:22:53Z" duration-ms="7168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testListMusicScreen()[pri:0, instance:TestLoginScreen@5b8dfcc1]" started-at="2021-12-10T09:22:53Z" name="testListMusicScreen" finished-at="2021-12-10T09:23:06Z" duration-ms="13188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListMusicScreen -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:TestLoginScreen@5b8dfcc1]" started-at="2021-12-10T09:23:06Z" name="closeApp" finished-at="2021-12-10T09:23:07Z" duration-ms="1083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:TestLoginScreen@5b8dfcc1]" started-at="2021-12-10T09:23:07Z" name="openApp" finished-at="2021-12-10T09:23:12Z" duration-ms="4819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testLoginScreenView()[pri:0, instance:TestLoginScreen@5b8dfcc1]" started-at="2021-12-10T09:23:12Z" name="testLoginScreenView" finished-at="2021-12-10T09:23:22Z" duration-ms="10459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginScreenView -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:TestLoginScreen@5b8dfcc1]" started-at="2021-12-10T09:23:22Z" name="closeApp" finished-at="2021-12-10T09:23:23Z" duration-ms="1082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:TestLoginScreen@5b8dfcc1]" started-at="2021-12-10T09:23:23Z" name="openApp" finished-at="2021-12-10T09:23:28Z" duration-ms="4240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testSettingScreen()[pri:0, instance:TestLoginScreen@5b8dfcc1]" started-at="2021-12-10T09:23:28Z" name="testSettingScreen" finished-at="2021-12-10T09:23:40Z" duration-ms="12012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSettingScreen -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:TestLoginScreen@5b8dfcc1]" started-at="2021-12-10T09:23:40Z" name="closeApp" finished-at="2021-12-10T09:23:41Z" duration-ms="1034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- TestLoginScreen -->
+    </test> <!-- Test View232 -->
+    <test started-at="2021-12-10T09:22:23Z" name="Test View23" finished-at="2021-12-10T09:23:41Z" duration-ms="77253">
+      <class name="TestLoginScreen">
+        <test-method is-config="true" signature="setUpTestLogin(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestLoginScreen@368f2016]" started-at="2021-12-10T09:22:24Z" name="setUpTestLogin" finished-at="2021-12-10T09:22:46Z" duration-ms="22036" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8191]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone 11]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8823]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[/Users/vanthanh/Desktop/device/device2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTestLogin -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:TestLoginScreen@368f2016]" started-at="2021-12-10T09:22:46Z" name="openApp" finished-at="2021-12-10T09:22:53Z" duration-ms="7168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testListMusicScreen()[pri:0, instance:TestLoginScreen@368f2016]" started-at="2021-12-10T09:22:53Z" name="testListMusicScreen" finished-at="2021-12-10T09:23:06Z" duration-ms="13053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListMusicScreen -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:TestLoginScreen@368f2016]" started-at="2021-12-10T09:23:06Z" name="closeApp" finished-at="2021-12-10T09:23:07Z" duration-ms="1065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:TestLoginScreen@368f2016]" started-at="2021-12-10T09:23:07Z" name="openApp" finished-at="2021-12-10T09:23:12Z" duration-ms="4963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testLoginScreenView()[pri:0, instance:TestLoginScreen@368f2016]" started-at="2021-12-10T09:23:12Z" name="testLoginScreenView" finished-at="2021-12-10T09:23:22Z" duration-ms="10478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginScreenView -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:TestLoginScreen@368f2016]" started-at="2021-12-10T09:23:22Z" name="closeApp" finished-at="2021-12-10T09:23:23Z" duration-ms="1074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:TestLoginScreen@368f2016]" started-at="2021-12-10T09:23:23Z" name="openApp" finished-at="2021-12-10T09:23:28Z" duration-ms="4223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="testSettingScreen()[pri:0, instance:TestLoginScreen@368f2016]" started-at="2021-12-10T09:23:28Z" name="testSettingScreen" finished-at="2021-12-10T09:23:40Z" duration-ms="12021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSettingScreen -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:TestLoginScreen@368f2016]" started-at="2021-12-10T09:23:40Z" name="closeApp" finished-at="2021-12-10T09:23:41Z" duration-ms="1116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- TestLoginScreen -->
+    </test> <!-- Test View23 -->
+  </suite> <!-- TestApp -->
+</testng-results>

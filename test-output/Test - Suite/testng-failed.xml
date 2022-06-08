@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test - Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test View(failed)">
+    <classes>
+      <class name="TestLoginScreen">
+        <methods>
+          <include name="openApp"/>
+          <include name="denit"/>
+          <include name="setUpTest"/>
+          <include name="testListMusicScreen"/>
+          <include name="testSettingScreen"/>
+          <include name="closeApp"/>
+          <include name="testLoginScreenView"/>
+        </methods>
+      </class> <!-- TestLoginScreen -->
+    </classes>
+  </test> <!-- Test View(failed) -->
+</suite> <!-- Failed suite [Test - Suite] -->
