@@ -17,7 +17,7 @@ import java.util.concurrent.TimeUnit;
 
 public class BaseTestParallel {
     AppiumDriver<MobileElement> appTest2 = null;
-    AppiumDriverLocalService service = null;
+    AppiumDriverLocalService service = null; 
 
     @Parameters({"wda", "deviceName", "port", "path"})
     @BeforeClass(alwaysRun = true)
